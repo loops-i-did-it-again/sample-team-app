@@ -3,5 +3,8 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 
     get "/cats" => "cats#index"
+    
+    get "/examples" => "examples#index"
+    get "/examples/:id" => "examples#show"
   end
 end
