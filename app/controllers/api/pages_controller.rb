@@ -3,3 +3,5 @@ class Api::PagesController < ApplicationController
     render json: {message: "Hello World, hello Dani & Blake!!"}
   end
 end
+
+  
