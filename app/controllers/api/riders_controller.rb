@@ -1,5 +1,5 @@
 class Api::RidersController < ApplicationController
   def index
-    render json: { hello: "Is it me you're looking for?"}
+    render "index.json.jb"
   end
 end
