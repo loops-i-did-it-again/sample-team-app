@@ -1,7 +1,11 @@
 class Api::ExamplesController < ApplicationController
 
   def index
-    render json: { message: "Oooooh lookit me I'm an index." }  
+    render json: {message: "Examples index action complete!"}
   end
 
+  def show
+    render json: {message: "Examples show action complete!"}
+  end
+  
 end
