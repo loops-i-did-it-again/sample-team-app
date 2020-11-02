@@ -1,5 +1,5 @@
 class Api::SamplesController < ApplicationController
   def index
-    render json: {message: "Happy Monday!"}
+    render json: {message: "Happy Monday!!!"}
   end
 end
