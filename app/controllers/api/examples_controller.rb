@@ -1,5 +1,5 @@
 class Api::ExamplesController < ApplicationController
   def index
-    render json: {message: "This message doesn't matter whooo!"}
+    render "index.json.jb"
   end
 end
